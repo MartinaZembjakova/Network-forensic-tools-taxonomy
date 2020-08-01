@@ -1,11 +1,9 @@
 # Network forensic tools taxonomy
 
-## Network forensics
+{% include_relative network-forensics.md %}
 
-### Network forensic processes
+{% include_relative network-frameworks.md %}
 
-## Network forensics frameworks
+{% include_relative network-forensic-tools.md %}
 
-## Network forensic tools
-
-### Comparation
+{% include_relative references.md %}
