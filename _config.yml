@@ -1,1 +1,20 @@
-theme: jekyll-theme-slate
+title: Network tools and datasets
+
+theme: minima
+
+minima:
+  skin: dark
+
+pages_list:
+  About: 'about'
+  Blog: 'latest-post'
+  Timeline: 'timeline'
+  Contact: 'contact'
+
+header_pages:
+  - network-forensic-tools.md
+  - network-datasets.md
+  
+author:
+  name: Martina Zembjaková
+  email: xzembj00@stud.fit.vutbr.cz
