@@ -1,24 +1,55 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  {%- include head.html -%}
+{% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+  </head>
   <body>
 
-    {%- include header.html -%}
+      <header>
+        <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+        <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
+      </header>
 
-    <main class="page-content" aria-label="Content">
-      <div class="left">
-          {% include toc.html html=content h_min=1 h_max=3 %}
-      </div>
-      <div class="wrapper">
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
+        {% if site.header_pages %}
+          <div class="downloads">
+            <ul>
+              <li><a href="/" class="button">HOME</a></li>
+              <li><a href="{{ site.header_pages.h1 }}" class="button">TOOLS</a></li>
+              <li><a href="{{ site.header_pages.h2 }}" class="button">DATASETS</a></li>
+            </ul>
+          </div>
+        {% endif %}
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
         {{ content }}
-      </div>     
-       
-    </main>
-
-    {%- include footer.html -%}
-
+      </section>      
+    </div>
+    
   </body>
-
+  <footer>
+    {% if site.author.name %}
+      <p>Project maintained by <b>{{ site.author.name }}</b> (<a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>)</p>
+    {% endif %}
+    <p><small>Hosted on GitHub Pages</small></p>
+  </footer>
 </html>

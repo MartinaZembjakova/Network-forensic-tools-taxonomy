@@ -1,19 +1,11 @@
 title: Network tools and datasets
+description: Overview of network forensic tools and datasets
 
-theme: minima
-
-minima:
-  skin: dark
-
-pages_list:
-  About: 'about'
-  Blog: 'latest-post'
-  Timeline: 'timeline'
-  Contact: 'contact'
+theme: jekyll-theme-leap-day
 
 header_pages:
-  - network-forensic-tools.md
-  - network-datasets.md
+  h1: network-forensic-tools.html
+  h2: network-datasets.html
   
 author:
   name: Martina Zembjaková

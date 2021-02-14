@@ -1,0 +1,11 @@
+---
+---
+
+@import 'jekyll-theme-leap-day';
+
+nav ul {
+    height: 45vh;
+    overflow: hidden; 
+    overflow-y: auto;
+    padding: 7px;
+}
