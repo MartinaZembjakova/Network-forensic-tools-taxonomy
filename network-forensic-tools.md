@@ -1,7 +1,5 @@
 # Network forensic tools
 
-It is useful to have an overview of tools that can be used in network forensics with its basic description. The overview of available tools helps to choose the suitable tool that can assist in obtaining the information, collecting and analyzing the evidence, or creating the reports.
-
 This website describes some network tools that can be used during network forensics. This overview includes both commercial and free to use tools. Some older tools are also included.
 ## Acunetix Web Vulnerability Scanner 
 
@@ -47,7 +45,7 @@ The advantages of the Angry IP Scanner include user-friendly interface, it is a 
 
 ## Argus
 
-**Links:** [official website](openargus.org)
+**Links:** [official website](https://www.openargus.org/)
 
 An Argus is the network flow system, developed by Carter Bullard in the early 1980's at Georgia Tech. The Argus Project is an open source project focused on proof of concept demonstrations of all aspects of large scale network awareness derived from network flow data. It is a real time flow monitor that is designed to perform comprehensive data network traffic auditing.
 
@@ -127,7 +125,7 @@ A CapAnalysis is an open-source web-based capture file viewer that can work with
 
 A CapLoader is a Window-based commercial tool that can handle large amounts of captured network traffic. It performs indexing of capture files and visualizes their contents as a list of TCP and UDP flows. It provides filtering of the packets and exporting packets/flows into the packet analyzer tool.
 
-In addition to the professional edition, the 30\,days trial is also available. This trial version can handle 500 GB of captured data, supports pcapng and IPv6, can filter keywords and provides keywords string search. Other features of the trial version include flow transcript view, DNS parser, initial RTT calculation, network packet carving, input filter (BPF), display filter (BPF), hide flows in GUI, and service regularity/period detection. The professional version does not have a limit for PCAP files, and in addition to the features of the trial edition, it provides Alexa and Cisco Umbrella top 1M lookup, port independent
+In addition to the professional edition, the 30 days trial is also available. This trial version can handle 500 GB of captured data, supports pcapng and IPv6, can filter keywords and provides keywords string search. Other features of the trial version include flow transcript view, DNS parser, initial RTT calculation, network packet carving, input filter (BPF), display filter (BPF), hide flows in GUI, and service regularity/period detection. The professional version does not have a limit for PCAP files, and in addition to the features of the trial edition, it provides Alexa and Cisco Umbrella top 1M lookup, port independent
 protocol identification (PIPI), OS fingerprinting, Geo-IP localization, ASN lookup, regular expression (regex) search, select flows from the log file or PCAP file, and Wireshark style Coloring.
 
 ## Carnivore
@@ -463,7 +461,7 @@ The KisMAC is no longer being updated or maintained. The latested version was re
 
 ## Kismet
 
-**Links:** [official website](https://www.kismetwireless.net/)
+**Links:** [official website](https://www.kismetwireless.net/), **Links:** [GitHub repository](https://github.com/kismetwireless/kismet)
 
 A Kismet is an open-source wireless network and device detector, sniffer, wardriving tool, and WIDS framework. It conatains Python plugins like kismetdb database module, kismetrest module, or kismetexternal module.
 
@@ -569,7 +567,7 @@ bandwidth monitor. The other key features include application traffic alerting, 
 
 ## Netfox Detective
 
-**Links:** [GitHub repository](github.com/nesfit/NetfoxDetective)
+**Links:** [GitHub repository](https://github.com/nesfit/NetfoxDetective)
 
 A Netfox Detective is an open-source Windows network forensic analysis tool that extracts the application content from the communication. This tool supports the following application protocols: BTC - Stratum, DNS, Facebook, FTP, Hangouts, HTTP, OSCAR - ICQ, IMAP, Lide.cz, Messenger, Minecrat, MQTT, POP3, RTP, SIP, SMTP, SPDY, Twitter, Webmails - various services, Xchat.cz, XMPP, YMSG. It can work with capture files; the live capture is not supported. The key features include multiple PCAPs support, large PCAPs support, advanced visualization, filters, and full-text search.
 
@@ -635,7 +633,7 @@ The RSA NetWitness Platform combines SIEM and threat defense solutions. It is a 
 
 ## Network Flight Recorder (NFR)
 
-**Links:** [GitHub repository](github.com/alphasoc/nfr)
+**Links:** [GitHub repository](https://github.com/alphasoc/nfr)
 
 A Network Flight Recorder is a lightweight application for processing network traffic. It uses the AlphaSOC Analytics Engine. It is an open-source tool and can be run on Linux systems, it can also be run as a service in Windows systems using NSSM.
 
@@ -647,7 +645,7 @@ The data can be exported in JSON or CEF format or sent via Syslog. NFR provides 
 
 **Links:** [official website](https://www.solarwinds.com/network-topology-mapper)
 
-A Network Topology Mapper is a commercial network tool used to automatically plot the network. There is available 14\,days free trial version. The key features include automatic device discovery and mapping, building multiple maps from a single scan, exporting network diagrams to Visio, auto-detecting changes to network topology, performing multi-level network discovery, and addressing regulatory PCI compliance. This tool is available for Windows systems.
+A Network Topology Mapper is a commercial network tool used to automatically plot the network. There is available 14 days free trial version. The key features include automatic device discovery and mapping, building multiple maps from a single scan, exporting network diagrams to Visio, auto-detecting changes to network topology, performing multi-level network discovery, and addressing regulatory PCI compliance. This tool is available for Windows systems.
 
 ## NetworkMiner
 
@@ -822,7 +820,7 @@ This capture tool consists of two components:
 
 **Links:** [official website](https://www.solarwinds.com/security-event-manager)
 
-A Security Event Manager (SEM) is a commercial SIEM tool that provides security information and event management solution. The main features include centralized log collection and normalization, automated threat detection and response, integrated compliance reporting tools, an intuitive dashboard and user interface, and built-in file integrity monitoring. The free 30\,days trial version is also available. The SEM is based on a manager and agent system, where the manager is distributed as a virtual machine, and agents can be installed on multiple platforms including Linux, Windows, and MacOS.
+A Security Event Manager (SEM) is a commercial SIEM tool that provides security information and event management solution. The main features include centralized log collection and normalization, automated threat detection and response, integrated compliance reporting tools, an intuitive dashboard and user interface, and built-in file integrity monitoring. The free 30 days trial version is also available. The SEM is based on a manager and agent system, where the manager is distributed as a virtual machine, and agents can be installed on multiple platforms including Linux, Windows, and MacOS.
 
 ## sFlow
 
