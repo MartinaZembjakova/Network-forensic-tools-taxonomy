@@ -11,7 +11,7 @@ It can be deployed locally on Linux, Mac OS, and Microsoft Windows operating sys
 
 ## Aircrack-ng
 
-**Links:** [official website](https://www.aircrack-ng.org/)
+**Links:** [official website](https://www.aircrack-ng.org/), [GitHub repository](https://github.com/aircrack-ng/aircrack-ng)
 
 An Aircrack-ng is an open-source that was started in 2006 and is still developing. It is a suite of tools to assess WiFi network security. The Aircrack-ng can run on Windows and Linux machines. It also works on OS X, FreeBSD, OpenBSD, NetBSD, Solaris and eComStation 2.
 
@@ -386,9 +386,11 @@ An IBM Security Network Intrusion Prevention System (NIPS) is an IPS system deve
 
 ## ifconfig
 
-**Links:** [Linux man page](https://linux.die.net/man/8/ifconfig)
+**Links:** [Linux man page](https://linux.die.net/man/8/ifconfig), [Windows documentation page](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/ipconfig)
 
 An ifconfig is a Linux command line network tool used for configuring a network interface. This command can be replaced by commands *ip addr* and *ip link*. Without specifying arguments the ifconfig displays the status of the currently active interfaces.
+
+The Windows alternative is command named ipconfig.
 
 ## Index.dat analyzer
 
@@ -461,7 +463,7 @@ The KisMAC is no longer being updated or maintained. The latested version was re
 
 ## Kismet
 
-**Links:** [official website](https://www.kismetwireless.net/), **Links:** [GitHub repository](https://github.com/kismetwireless/kismet)
+**Links:** [official website](https://www.kismetwireless.net/), [GitHub repository](https://github.com/kismetwireless/kismet), [Documentation](https://www.kismetwireless.net/docs/readme/quickstart/)
 
 A Kismet is an open-source wireless network and device detector, sniffer, wardriving tool, and WIDS framework. It conatains Python plugins like kismetdb database module, kismetrest module, or kismetexternal module.
 
@@ -567,7 +569,7 @@ bandwidth monitor. The other key features include application traffic alerting, 
 
 ## Netfox Detective
 
-**Links:** [GitHub repository](https://github.com/nesfit/NetfoxDetective)
+**Links:** [GitHub repository](https://github.com/nesfit/NetfoxDetective), [website](http://netfox.fit.vutbr.cz/About.en.html)
 
 A Netfox Detective is an open-source Windows network forensic analysis tool that extracts the application content from the communication. This tool supports the following application protocols: BTC - Stratum, DNS, Facebook, FTP, Hangouts, HTTP, OSCAR - ICQ, IMAP, Lide.cz, Messenger, Minecrat, MQTT, POP3, RTP, SIP, SMTP, SPDY, Twitter, Webmails - various services, Xchat.cz, XMPP, YMSG. It can work with capture files; the live capture is not supported. The key features include multiple PCAPs support, large PCAPs support, advanced visualization, filters, and full-text search.
 
@@ -640,6 +642,13 @@ A Network Flight Recorder is a lightweight application for processing network tr
 The NFR can monitor and actively read log files from disk (log files by other applications like Bro/Zekk IDS, Microsoft DNS, Suricata DNS) or process events directly from the network (capture traffic data as a network sniffer). In addition to capturing the packets, it also provides in-depth analysis and alerting of the suspicious events, including identifying gaps in the security controls, highlighting targeted attacks and policy violations.
 
 The data can be exported in JSON or CEF format or sent via Syslog. NFR provides a command-line interface with few predefined commands.
+
+## Network Performace Monitor
+
+**Links:** [official website](https://www.solarwinds.com/network-performance-monitor)
+
+A Network Performace Monitor is a commercial tool that provides a lot of features. The goal is to monitor whole network infrastructure. The user can see network traffic, configuration and performance details. It supports on-prem, hybrid and cloud services. It uses hop-by-hop analysis with NetPath.
+
 
 ## Network Topology Mapper
 
@@ -899,6 +908,12 @@ A Softflowd is a software NetFlow probe. It is a flow-based network traffic anal
 
 A SplitCap is a free tool used for splitting capture files. There can be specified criteria for splitting the PCAPs - BSSID (WLAN BSSID), Flow (5-tuple), Host (IP address), Host Pair (IP pairs), MAC address, Session (bi-directional flow), Time, and Packets Count. This tool can be run Linux and Windows systems.
 
+## Splunk
+
+**Links:** [official website](https://www.splunk.com/)
+
+Splunk is a SIEM tool. It is a commercial tool that is available as "Data-to-Everything Platform", "Splunk Cloud", "Splunk Enterprise", "Splunk Machine Learning Toolkit", and "Splunk Data Stream Processor". It covers cybersecurity solutions, observability, IT monitoring tools and other security products.
+
 ## SSLsplit
 
 **Links:** [official website](https://www.roe.ch/SSLsplit)
@@ -1027,11 +1042,13 @@ The Wikto provides graphical user interface. For full instalation, there is need
 
 ## windump/WinPcap
 
-**Links:** [official website (windump)](https://www.winpcap.org/windump/), [official website (WinPcap)](https://www.winpcap.org/)
+**Links:** [official website (windump)](https://www.winpcap.org/windump/), [official website (WinPcap)](https://www.winpcap.org/), [GitHub (WinDump for Npcap)](https://github.com/hsluoyz/WinDump)
 
 A Windump is a free command-line network analyzer for Windows systems. This tool can be understood as an Windows version of the tcpdump. The Windump is used to capture, analyze, and export the network traffic data.
 
 A WinPcap is an industry-standard Windows packet capture library. It allows applications to capture and transmit network packets. It can be understood as an Windows version of the libpcap. This library is used in many network tools, including Windump, Wireshark, Nmap, Snort, and ntop.
+
+A WinPcap is not supported in Windows 10, the npacp is used instead. Therfore, for Windows 10 the original WinDump that works with WinPcap will not work. The "WinDump for Npcap" is available.
 
 ## Wireless Network Watcher
 
