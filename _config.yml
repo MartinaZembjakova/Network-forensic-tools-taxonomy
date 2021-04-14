@@ -1,1 +1,12 @@
-theme: jekyll-theme-slate
+title: Network tools and datasets
+description: Overview of network forensic tools and datasets
+
+theme: jekyll-theme-leap-day
+
+header_pages:
+  h1: network-forensic-tools.html
+  h2: network-datasets.html
+  
+author:
+  name: Martina Zembjaková
+  email: xzembj00@stud.fit.vutbr.cz
