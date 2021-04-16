@@ -36,6 +36,13 @@
               <li><a href="{{ site.header_pages.h1 }}" class="button">TOOLS</a></li>
               <li><a href="{{ site.header_pages.h2 }}" class="button">DATASETS</a></li>
             </ul>
+
+            <select onChange="window.location.href=this.value">
+              <option value="" selected="selected">MENU</option>
+              <option value="{{ site.header_pages.home }}" class="button">HOME</option>
+              <option value="{{ site.header_pages.h1 }}" class="button">TOOLS</option>
+              <option value="{{ site.header_pages.h2 }}" class="button">DATASETS</option>
+            </select>
           </div>
         {% endif %}
       </div><!-- end banner -->
