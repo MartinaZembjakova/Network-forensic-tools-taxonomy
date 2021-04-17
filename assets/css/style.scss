@@ -3,6 +3,24 @@
 
 @import 'jekyll-theme-leap-day';
 
+ul::-webkit-scrollbar {
+  width: 10px;
+}
+
+ul::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 5px;
+}
+
+ul::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 5px;
+}
+
+ul::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
 nav ul {
     height: 45vh;
     overflow: hidden; 
