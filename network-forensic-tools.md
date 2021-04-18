@@ -289,7 +289,7 @@ A findject.py is an open-source python script that can detect TCP packet injecti
 
 ## findsmtpinfo.py
 
-**Links:** [repository with the program from web archive](web.archive.org/web/20200522224019/http://forensicscontest.com/contest02/Finalists/Jeremy_Rossi/)
+**Links:** [repository with the program from web archive](http://web.archive.org/web/20200522224019/http://forensicscontest.com/contest02/Finalists/Jeremy_Rossi/)
 
 A findsmtpinfo.py is a network tool written for the Network Forensic Puzzle #2 Contest by Jeremy Rossi. This tool reads a PCAP file, decodes authentication data (username and password), gathers email information, stores attachments (decompresses them if in compressed format), checks the MD5sum, and creates a report of the SMTP information.
 
@@ -335,7 +335,7 @@ The FlowTraq also provides the tool named the FlowTraq Exporter. The FlowTraq Ex
 
 ## Forensics Investigation Toolkit (FIT)
 
-**Links:** [official website](www.edecision4u.com/FIT.html)
+**Links:** [official website](http://www.edecision4u.com/FIT.html)
 
 The Forensics Investigation Toolkit (FIT) is a licensed tool developed by the *Decision Group Inc.* This toolkit is available for Windows systems and can analyze network packet data. These data can be read from a PCAP file or real-time captured. The FIT provides a graphical user interface. The other features include full-text searching, bookmarking, immediate parsing and reconstruction of the raw data into categories, WhoIS and Google Map integration, association analysis, and export of the analyzed data.
 
@@ -400,7 +400,7 @@ An Index.dat is a free network tool used for viewing, examining, and deleting co
 
 ## InfiniStream (nGeniusONE)
 
-**Links:** [official website (nGeniusONE)](netscout.com/product/ngeniusone-platform), [product decription (Infinistream appliance)](https://www.netscout.com/sites/default/files/2015/06/netscout_ql_infinistream_appliance.pdf)
+**Links:** [official website (nGeniusONE)](http://netscout.com/product/ngeniusone-platform), [product decription (Infinistream appliance)](https://www.netscout.com/sites/default/files/2015/06/netscout_ql_infinistream_appliance.pdf)
 
 An InfiniStream is an intelligent deep packet capture and analysis appliance that is a foundation for a nGeniusONE platform. This is a proprietary tool for customized Linux systems, owned by the NetScout Systems company.
 
