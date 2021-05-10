@@ -8,11 +8,15 @@ In 2019, the authors of the article "A survey of network-based intrusion detecti
 
 The following sections provide a detailed description of some datasets.
 
-## [Canadian Institute for Cybersecurity datasets](https://www.unb.ca/cic/datasets/)
+## Canadian Institute for Cybersecurity datasets
+
+**Link:** [official website](https://www.unb.ca/cic/datasets/)
 
 The "Canadian Institute for Cybersecurity" created datasets that are focused of several aspects of cyersecurity. The currently available datasets include Android malware, DoS, VPN, Tor, IPS/IDS, and DNS over HTTP traffic. Some datasets are described in the following sections.
 
-### [CIC-DDoS2019](https://www.unb.ca/cic/datasets/ddos-2019.html)
+### CIC-DDoS2019
+
+**Link:** [official website](https://www.unb.ca/cic/datasets/ddos-2019.html)
 
 The dataset *DDoS2019* is a dataset of "Canadian Institute for Cyersecurity" that contains benign and most up-to-data DDoS attacks. The dataset contains realistic background traffic. There was built the abstract behaviour of 25 users based on the HTTP, HTTPS, FTP, SSH, and email protocols.
 
@@ -90,7 +94,9 @@ SAT-01-12-2018\_0818	|		20:59:05.159081		-		21:16:39.140675
 * **Protocols:** 3Com XNS, 3GPP2 A11, 802.11, A21, ADP, ALC, ALC/XML, ALLJOYN, ALLJOYN-ARDP, ALLJOYN-NS, AMS, AMT, ANSI C12.22, AODV, ARP, ASAP, ASF, ASTERIX, ATH, AX4000, AYIYA, Armagetronad, Auto-RP, BACnet-APDU, BAT\_BATMAN, BAT\_GW, BAT\_VIS, BFD Control, BJNP, BOOTP, BROWSER, BSSGP, BVLC, Bundle, CAPWAP-Control, CAPWAP-Data, CAT-TP, CDP, CLDAP, CLNP, CN/IP, CUPS, CoAP, DAYTIME, DB-LSP-DISC, DCC, DCERPC, DCP-AF, DCP-PFT, DHCP, DHCPv6, DIS, DMP, DNP, DNS, DPNET, DPP, DSPv2 , DSR, DTLS, DTP, EAP, EAPOL, EAPOL-MKA, ECAT, ECATF, ECHO, ECMP, EGD, EIGRP, ENIP, ENRP, ESP, Elasticsearch, Ethernet, FF, GPRS-LLC, GPRS-NS, GSM SIM, GSMTAP, GTP, GTPv2, Geneve, H.225.0, H.248, HART\_IP, HCrt, HPEXT, HTTP, HTTP/XML, HiQnet, IAPP, IAX2, ICMP, ICMPv6, ICP, IEEE 802.15.4, IO-RAW, IP, IPMI, IPVS, IPX, IPv4, IPv6, ISAKMP, ISO, KDP, KINK, KNET, KPASSWD, KRB4, KRB5, L2TP, L2TPv3, LDP, LISP, LLC, LLDP, LLMNR, LMP, LTP Segment, LWAPP, MAC-Telnet, MANOLITO, MDNS, MEMCACHE, MIH, MIPv6, MNDP, MPLS, MSMMS, MSproxy, MiNT, MobileIP, Modbus/UDP, NAT-PMP, NBDS, NBNS, NCP, NEMO, NHRP, NTP, NXP 802.15.4 SNIFFER, Nano, NetBIOS, OCSP, OLSR v1, OSCORE, OSPF, OpenVPN, PCP v1, PCP v2, PFCP, PKTC, PN-PTCP, PNIO, POWERLINK/UDP, PTPv2, Pathport, QUAKE, QUAKE2, QUAKE3, QUAKEWORLD, RADIUS, RDT, RIP, RIPng, RIPv1, RIPv2, RMCP, RRoCE, RSIP, RSVP, RTCP, RTPproxy, RX, RakNet, SABP, SAP, SAP/SDP, SCTP, SCoP, SEBEK, SIP, SNA, SNMP, SPX, SRVLOC, SSDP, SSH, SSHv2, SSL, STP, SliMP3, Syslog, TACACS, TAPA, TC-NV, TCP, TETRA, TFTP, TIME, TIPC, TLSv1, TLSv1.2, TLSv1.3, TPCP, TPKT, TS2, TSP, TZSP, Thread, UAUDP, UDP, UDP/MIKEY, ULP, UNKNOWN, VITA 49, Vines IP, Vuze-DHT, VxLAN, WHO, WLCCP, WSP, WTLS+WSP, WTLS+WTP+WSP, WTP+WSP, X.25, XTACACS, XYPLEX, ZigBee IP, collectd, eDonkey, lw\_res, openSAFETY over UDP, openSAFETY/UDP, packetbb
 * **Attacks:** NTP (13:35 - 13:45), DNS (13:52 - 14:05), LDAP (14:22 - 14:32), MSSQL (14:36 - 14:45), NetBIOS (14:50 - 15:00), SNMP (15:12 - 15:23), SSDP (15:27 - 15:37), UDP (15:45 - 16:09), UDP-Lag (16:11 - 16:15), WebDDoS (16:18 - 16:29), SYN (16:29 - 16:34), TFTP (16:35 - 20:15)
 
-### [CIC-IDS2017](https://www.unb.ca/cic/datasets/ids-2017.html)
+### CIC-IDS2017
+
+**Link:** [official website](https://www.unb.ca/cic/datasets/ids-2017.html)
 
 The dataset "IDS 2017" contains benign and the most up-to-date common attacks. It reflects a realistic background traffic. This dataset contains the built abstract behaviour of 25 users based on the HTTP, HTTPS, FTP, SSH, and email protocols.
 
@@ -156,7 +162,9 @@ Timeline is displayed in UTC (Coordinated Universal Time) format. Involved hosts
 * **Attacks:** Botnet ARES (1:02 PM - 2:02 PM), DDoS LOIT (6:56 PM - 7:16 PM), Port Scan (sS, sT, sF, sX, sN, sP, sV, sU, sO, sA, sW, sR, sL and B)
  
 
-## [Nitroba University Harassment Scenario](https://digitalcorpora.org/corpora/scenarios/nitroba-university-harassment-scenario)
+## Nitroba University Harassment Scenario
+
+**Link:** [official website](https://digitalcorpora.org/corpora/scenarios/nitroba-university-harassment-scenario)
 
 A "Nitroba University Harassment Scenario" is a hypothetical network forensic scenario created by the "Digital Corpora". The scenario consists of the slides that introduce the problem (PDF, PPT or TXT file), screenshots in PNG format as a part of the problem introduction, and a PCAP file of the captured traffic. There is also available password-protected solution of this scenario.
 
@@ -178,7 +186,9 @@ At 06:01, the user visited www.sentanonymousemail.net. Then the user sent two em
 
 On 22.7.2008 06:09:59 UTC, the user amy789smith authenticated with Yahoo, but there was used different web browser, and therefore Amy Smith did not send the harassment emails.
 
-## [NETRESEC Packet Injection Attacks](https://www.netresec.com/?page=Blog&month=2016-03&post=Packet-Injection-Attacks-in-the-Wild)
+## NETRESEC Packet Injection Attacks
+
+**Link:** [official website](https://www.netresec.com/?page=Blog&month=2016-03&post=Packet-Injection-Attacks-in-the-Wild)
 
 Erik Hjelmvik, in his article 
 "Packet Injection Attacks in the Wild," focused on the packet injection attacks that have been running for several months and that was still active in 2016. They attempted to recreate these packet injections and provided PCAP files.
@@ -228,7 +238,9 @@ After visiting the website *id1.cn*, three responses are returned:
 * **Protocols:** HTTP, TCP
  
 
-## [ICS Cybersecurity - DoS Attacks against SCADA-based systems](https://github.com/tjcruz-dei/ICS_PCAPS/releases/tag/MODBUSTCP%231)
+## ICS Cybersecurity - DoS Attacks against SCADA-based systems
+
+**Link:** [official website](https://github.com/tjcruz-dei/ICS_PCAPS/releases/tag/MODBUSTCP%231)
 
 The ICS Cybersecurity PCAP repository is a suite of PCAP captures that includes the "modbus TCP SCADA" dataset  created by a team from the University of Coimbra (Portugal), as a part of the ATENA H2020 project. This dataset was generated for the article "Denial of Service Attacks: Detecting the frailties of machine learning algorithms in the Classification Process" using MODBUS/TCP equipment in the SCADA system.
 
@@ -291,10 +303,16 @@ The following table displays the network information about this dataset.
 * **Total attacks:** TCP SYN flooding
 
 
-## [WireShark SampleCaptures](https://gitlab.com/wireshark/wireshark/-/wikis/SampleCaptures)
+## WireShark SampleCaptures
+
+**Link:** [official website](https://gitlab.com/wireshark/wireshark/-/wikis/SampleCaptures)
+
 WireShark provides many PCAP capture files in its wiki page. Some packet capture files are described in the following sections.
 
-### [SSL with decryption keys](https://git.lekensteyn.nl/peter/wireshark-notes/tree/tls)
+### SSL with decryption keys
+
+**Link:** [official website](https://git.lekensteyn.nl/peter/wireshark-notes/tree/tls)
+
 Wireshark provides a list of PCAP files together with the decryption keys. Some PCAPs from the list are described in the following part of this section. The description and source of the PCAP file is retrieved from the Wireshark wiki page.
 
 **rsasnakeoil.cap**
